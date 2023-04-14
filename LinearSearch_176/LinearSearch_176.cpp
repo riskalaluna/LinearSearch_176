@@ -58,7 +58,7 @@ void LinearSearch()
 			cout << "\n" << item << " not foun in the array\n";
 		cout << "\nNumber of vomparisons: " << comparison << endl;
 
-	}
-
-
+		cout << "\nContinue search (y/n): ";
+		cin >> ch;
+	} while ((ch == 'y') || (ch == 'y'));
 }
