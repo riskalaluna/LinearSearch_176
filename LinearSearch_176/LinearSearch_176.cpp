@@ -44,16 +44,17 @@ void LinearSearch()
 		int item;
 		cin >> item;
 
-		comparsion = 0;
+		comparison = 0;
 		for (i = 0; i < n; i++)						// Langkah 2,3 dan 4
 		{
 			comparison++;
 			if (arr[i] == item)						// Langkah 5 a found
 			{
-				cout << "\n" << item << "found at position"
+				cout << "\n" << item << "found at position " << (i + 1) << endl;
+				break;
 			}
-
 		}
+		if (i == n)
 	}
 
 }
