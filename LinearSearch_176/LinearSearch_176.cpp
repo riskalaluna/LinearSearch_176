@@ -54,7 +54,11 @@ void LinearSearch()
 				break;
 			}
 		}
-		if (i == n)
+		if (i == n)									// Langkah 5 b not found
+			cout << "\n" << item << " not foun in the array\n";
+		cout << "\nNumber of vomparisons: " << comparison << endl;
+
 	}
+
 
 }
