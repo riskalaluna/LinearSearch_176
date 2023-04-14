@@ -2,7 +2,7 @@
 using namespace std;
 
 
-int arr[arr]; //Array to be searched
+int arr[20]; //Array to be searched
 int n; //Number of elements in the array
 int i; //Index of array element
 
@@ -56,7 +56,7 @@ void LinearSearch()
 		}
 		if (i == n)									// Langkah 5 b not found
 			cout << "\n" << item << " not foun in the array\n";
-		cout << "\nNumber of vomparisons: " << comparison << endl;
+		cout << "\nNumber of comparisons: " << comparison << endl;
 
 		cout << "\nContinue search (y/n): ";
 		cin >> ch;
